@@ -23,9 +23,9 @@
                   </ul>
               </div>
           </div>
-          <div class="row">
+          <div class="row ps-4">
               <div class="col-6">
-                  <h1>DAMON VAUGHN</h1>
+                  <h1 class="handwrite-big">Damon Vaughn</h1>
               </div>
           </div>
       </div>
