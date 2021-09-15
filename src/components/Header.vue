@@ -1,6 +1,16 @@
 <template>
+<!--Header-->
   <header>
-
+      <div class="container">
+          <div class="row">
+              <!--LOGO-->
+              <div class="col">
+                  <figure>
+                      <img src="../assets/images/author-logo-round-200x205.png" alt="logo" class="img-fluid">
+                  </figure>
+              </div>
+          </div>
+      </div>
   </header>
 </template>
 
