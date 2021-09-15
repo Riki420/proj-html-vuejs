@@ -24,7 +24,9 @@
               </div>
           </div>
           <div class="row">
-              
+              <div class="col-6">
+                  <h1>DAMON VAUGHN</h1>
+              </div>
           </div>
       </div>
   </header>
@@ -37,6 +39,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../assets/scss/_vars.scss";
     header{
         background-image: url('../assets/images/hero-07-2x.jpg');
         background-size: cover;
@@ -45,13 +48,13 @@ export default {
         min-height: 500px;
         .nav-link{
             &:hover{
-                border-top: 4px solid #e1aa40;
-                color: #e1aa40;
+                border-top: 4px solid $saffron;
+                color: $saffron;
             }
         }
         .selected{
-            border-top: 4px solid #e1aa40;
-            color: #e1aa40;
+            border-top: 4px solid $saffron;
+            color: $saffron;
         }
         
         
