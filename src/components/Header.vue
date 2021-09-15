@@ -27,7 +27,7 @@
               <div class="col-6">
                   <h1 class="handwrite-big">Damon Vaughn</h1>
                   <p class="fs-2 text-white">Best-selling author and the most influential public intellectual in the western world right now.</p>
-                  <address >- New York Times</address>
+                  <address class="pumice">- New York Times</address>
               </div>
           </div>
       </div>
@@ -42,6 +42,7 @@ export default {
 
 <style lang="scss" scoped>
 @import "../assets/scss/_vars.scss";
+@import "../assets/scss/_text.scss";
     header{
         background-image: url('../assets/images/hero-07-2x.jpg');
         background-size: cover;
