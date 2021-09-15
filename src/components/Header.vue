@@ -26,6 +26,8 @@
           <div class="row ps-4">
               <div class="col-6">
                   <h1 class="handwrite-big">Damon Vaughn</h1>
+                  <p class="fs-2 text-white">Best-selling author and the most influential public intellectual in the western world right now.</p>
+                  <address >- New York Times</address>
               </div>
           </div>
       </div>
