@@ -37,8 +37,56 @@
             the western world right now.
           </p>
           <address class="pumice">- New York Times</address>
-          <div class="btn-arrow"><i class="bi bi-arrow-left-square-fill"></i></div>
-          <div class="btn-arrow"><i class="bi bi-arrow-right-square-fill"></i></div>
+          <div class="btn-arrow">
+            <i class="bi bi-arrow-left-square-fill"></i>
+          </div>
+          <div class="btn-arrow">
+            <i class="bi bi-arrow-right-square-fill"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <div id="buyOnBox">
+            <div class="container">
+              <div class="row p-4">
+                <div class="col-6">
+                  <figure>
+                    <img
+                      src="../assets/images/book-widget.png"
+                      alt="book-widget"
+                      class="img-fluid"
+                    />
+                  </figure>
+                </div>
+                <div class="col-6">
+                  <div>
+                    <h2 class="dm-serif">Latest Book Release</h2>
+                    <address class="cornFlowerBlue">
+                      D. VAUGHN AUTOBIOGRAPHY
+                    </address>
+                    <p>
+                      Vestibulum tristique turpis in ipsum egestas lobortis.
+                      Duis maximus bibendum volutpat. Lorem ipsum doloor sit
+                      amet.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <button type="button" class="btn btn-outline-success w-100">
+                    <i class="fab fa-amazon"></i> Buy On Amazon
+                  </button>
+                </div>
+                <div class="col-6">
+                  <button type="button" class="btn btn-outline-success w-100">
+                    <i class="fab fa-apple"></i> Buy On AppStore
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -48,6 +96,7 @@
 <script>
 export default {
   name: "Header",
+  components: {},
   data() {
     return {
       linksNav: [
@@ -87,11 +136,20 @@ header {
   background-position: top;
   background-repeat: no-repeat;
   min-height: 500px;
+  position: relative;
   .nav-link {
     &:hover {
       border-top: 4px solid $cornFlowerBlue;
       color: $cornFlowerBlue;
     }
+  }
+  #buyOnBox {
+    background-color: #fff;
+    min-height: 200px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 40%;
   }
 }
 </style>

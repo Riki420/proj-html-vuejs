@@ -11,7 +11,7 @@
 import Moreabout from "./Moreabout.vue";
 import Logotan from "./Logotan.vue";
 import Audible from "./Audible.vue";
-import Criticsay from "./Criticsay";
+import Criticsay from "./Criticsay.vue";
 export default {
   name: "Main",
   components: {

@@ -4,13 +4,13 @@
       <div class="col">
         <div class="container w-75">
           <div class="row">
-            <div class="col-6">
+            <div class="col-6 d-flex">
               <!--MOBILE AUDIBLE PIC-->
               <figure id="audiblePic" class="d-flex justify-content-end">
                 <img
                   src="../assets/images/audible-app-2x.png"
                   alt="audible-app"
-                  class="img-fluid w-50"
+                  class="img-fluid"
                 />
               </figure>
             </div>
@@ -25,22 +25,22 @@
                   Donec fringilla nunc eu turpis dignissim, at euismod sapien
                   tincidunt. Maecenas eleifend congue cursus.
                 </p>
-                <div class="d-flex justify-content-between">
-                  <figure>
+                <div class="d-flex justify-content-center">
+                  <figure class="me-2">
                     <img
                       src="../assets/images/audible-logo.png"
                       alt="audible-logo"
                       class="img-fluid"
                     />
                   </figure>
-                  <figure>
+                  <figure class="me-3">
                     <img
                       src="../assets/images/bn-logo-tall.png"
                       alt="audible-logo"
                       class="img-fluid"
                     />
                   </figure>
-                  <figure>
+                  <figure class="me-2">
                     <img
                       src="../assets/images/kindle-logo-tall.png"
                       alt="audible-logo"
