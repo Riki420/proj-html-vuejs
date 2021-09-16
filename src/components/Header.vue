@@ -1,7 +1,8 @@
 <template>
 <!--Header-->
   <header>
-      <div class="container">
+      <div class="container pb-4">
+          <!--LOGO & NAVBAR-->
           <div class="row">
               <!--LOGO-->
               <div class="col">
@@ -23,11 +24,14 @@
                   </ul>
               </div>
           </div>
+          <!--AUTHOR & CIT-->
           <div class="row ps-4">
               <div class="col-6">
                   <h1 class="handwrite-big">Damon Vaughn</h1>
                   <p class="fs-2 text-white">Best-selling author and the most influential public intellectual in the western world right now.</p>
                   <address class="pumice">- New York Times</address>
+                  <button><i class="bi bi-arrow-left-square-fill"></i></button>
+                  <button><i class="bi bi-arrow-right-square-fill"></i></button>
               </div>
           </div>
       </div>
