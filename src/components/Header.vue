@@ -17,26 +17,8 @@
         <!--NAVBAR-->
         <div class="col-7">
           <ul class="nav">
-            <li class="nav-item">
-              <a href="#" class="nav-link py-4 text-white selected">Home</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link text-white py-4">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link text-white py-4">Testimonials</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link text-white py-4">My Blog</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link text-white py-4">Meetups</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link text-white py-4">Shop</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link text-white py-4">Contact Me</a>
+            <li class="nav-item" v-for="(link, index) in linksNav" :key="index">
+              <a href="#" class="nav-link py-4 text-white">{{ link.text }}</a>
             </li>
             <li class="nav-item">
               <a href="#" class="nav-link text-white py-4"
@@ -70,25 +52,25 @@ export default {
     return {
       linksNav: [
         {
-          linkNav: "Home",
+          text: "Home",
         },
         {
-          linkNav: "About Me",
+          text: "About Me",
         },
         {
-          linkNav: "Testimonials",
+          text: "Testimonials",
         },
         {
-          linkNav: "My Blog",
+          text: "My Blog",
         },
         {
-          linkNav: "Meetups",
+          text: "Meetups",
         },
         {
-          linkNav: "Shop",
+          text: "Shop",
         },
         {
-          linkNav: "Contact Me",
+          text: "Contact Me",
         },
       ],
     };
@@ -110,10 +92,6 @@ header {
       border-top: 4px solid $saffron;
       color: $saffron;
     }
-  }
-  .selected {
-    border-top: 4px solid $saffron;
-    color: $saffron;
   }
 }
 </style>
