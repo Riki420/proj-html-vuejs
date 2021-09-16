@@ -3,8 +3,10 @@
     <div class="row">
       <div class="col">
         <div class="container w-75">
-          <div class="row">
-            <div class="col-6 d-flex">
+          <div class="row justify-content-center">
+            <div
+              class="col-md-6 col-lg-6 d-flex d-none d-sm-none d-md-inline d-lg-inline"
+            >
               <!--MOBILE AUDIBLE PIC-->
               <figure id="audiblePic" class="d-flex justify-content-end">
                 <img
@@ -15,7 +17,7 @@
               </figure>
             </div>
             <!--NEW AUDIBLE-->
-            <div class="col-6 d-flex align-items-center">
+            <div class="col col-md-6 col-lg-6 d-flex align-items-center">
               <div class="text-center">
                 <h4 class="text-white dm-serif">New Audiobook</h4>
                 <h6 class="$cornFlowerBlue">

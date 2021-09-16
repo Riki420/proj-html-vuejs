@@ -30,7 +30,7 @@
       </div>
       <!--AUTHOR & CIT-->
       <div class="row ps-4">
-        <div class="col-6">
+        <div class="col col-md-6 col-lg-6">
           <h1 class="handwrite-big">Damon Vaughn</h1>
           <p class="fs-2 text-white dm-serif">
             Best-selling author and the most influential public intellectual in
@@ -46,7 +46,7 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid d-none d-sm-none d-md-inline d-lg-inline">
       <div class="row">
         <div class="col">
           <div id="buyOnBox">
