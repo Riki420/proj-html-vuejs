@@ -37,8 +37,8 @@
             the western world right now.
           </p>
           <address class="pumice">- New York Times</address>
-          <button><i class="bi bi-arrow-left-square-fill"></i></button>
-          <button><i class="bi bi-arrow-right-square-fill"></i></button>
+          <div class="btn-arrow"><i class="bi bi-arrow-left-square-fill"></i></div>
+          <div class="btn-arrow"><i class="bi bi-arrow-right-square-fill"></i></div>
         </div>
       </div>
     </div>
