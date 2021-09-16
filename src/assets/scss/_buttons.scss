@@ -1,38 +1,42 @@
-.btn-arrow{
-    background-color: transparent;
-    border: 0;
-    display: inline;
-    cursor: pointer;
-    margin-right: 0.8em;
-    .bi-arrow-left-square-fill,
-    .bi-arrow-right-square-fill{
-        font-size: 2em;
-        opacity: 0.8;
-        &:hover{
-        opacity: 1;
+.btn-arrow {
+  background-color: transparent;
+  border: 0;
+  display: inline;
+  cursor: pointer;
+  margin-right: 0.8em;
+  .bi-arrow-left-square-fill,
+  .bi-arrow-right-square-fill {
+    font-size: 2em;
+    opacity: 0.8;
+    &:hover {
+      opacity: 1;
     }
-    }
-    
+  }
 }
 
 .btn-keppel {
+  color: #fff;
+  background-color: $keppel;
+  border-color: $keppel;
+  &:hover {
+    background-color: #357f60;
     color: #fff;
-    background-color: $keppel;
-    border-color: $keppel;
-    &:hover{
-        background-color: #357f60;
-        color: #fff;
-
-    }
+  }
 }
 
 .btn-anzac {
+  color: #fff;
+  background-color: $anzac;
+  border-color: $anzac;
+  &:hover {
+    background-color: #f4a700;
     color: #fff;
-    background-color: $anzac;
-    border-color: $anzac;
-    &:hover{
-        background-color: #f4a700;
-        color: #fff;
-
-    }
+  }
+}
+.btn-buy-on {
+  border-color: $keppel;
+  &:hover {
+    box-shadow: 1px 1px 1px 1px rgba(61, 166, 152, 0.4);
+    border-color: rgba(61, 166, 152, 0.3);
+  }
 }

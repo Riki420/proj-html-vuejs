@@ -75,12 +75,12 @@
                   </div>
                 </div>
                 <div class="col-6">
-                  <button type="button" class="btn btn-outline-success w-100">
+                  <button type="button" class="btn btn-buy-on w-100">
                     <i class="fab fa-amazon"></i> Buy On Amazon
                   </button>
                 </div>
                 <div class="col-6">
-                  <button type="button" class="btn btn-outline-success w-100">
+                  <button type="button" class="btn btn-buy-on w-100">
                     <i class="fab fa-apple"></i> Buy On AppStore
                   </button>
                 </div>

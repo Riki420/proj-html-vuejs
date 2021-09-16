@@ -20,7 +20,7 @@
             <div class="col col-md-6 col-lg-6 d-flex align-items-center">
               <div class="text-center">
                 <h4 class="text-white dm-serif">New Audiobook</h4>
-                <h6 class="$cornFlowerBlue">
+                <h6 class="cornFlowerBlue">
                   NO TIME TO READ? NO PROBLEM. LISTEN TO IT
                 </h6>
                 <p class="text-white">
