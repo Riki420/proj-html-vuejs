@@ -20,6 +20,19 @@
                     </button>
                   </div>
                 </div>
+                <div class="row">
+                  <div class="col-6">
+                    <div>
+                      <figure>
+                        <img
+                          src="../assets/images/testimonial2-2x.jpg"
+                          alt="testimonial-img"
+                          class="img-fluid round-right filter-bright"
+                        />
+                      </figure>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -35,4 +48,11 @@ export default {
 };
 </script>
 
-<style></style>
+<style lang="scss">
+.round-right {
+  border-radius: 0 0 40px 0;
+}
+.filter-bright {
+  filter: brightness(0.5);
+}
+</style>
