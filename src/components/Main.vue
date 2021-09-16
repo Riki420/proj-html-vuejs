@@ -3,6 +3,7 @@
     <Moreabout />
     <Logotan />
     <Audible />
+    <Criticsay />
   </div>
 </template>
 
@@ -10,12 +11,14 @@
 import Moreabout from "./Moreabout.vue";
 import Logotan from "./Logotan.vue";
 import Audible from "./Audible.vue";
+import Criticsay from "./Criticsay";
 export default {
   name: "Main",
   components: {
     Moreabout,
     Logotan,
     Audible,
+    Criticsay,
   },
 };
 </script>

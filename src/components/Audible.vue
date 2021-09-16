@@ -6,7 +6,7 @@
           <div class="row">
             <div class="col-6">
               <!--MOBILE AUDIBLE PIC-->
-              <figure class="d-flex justify-content-end">
+              <figure id="audiblePic" class="d-flex justify-content-end">
                 <img
                   src="../assets/images/audible-app-2x.png"
                   alt="audible-app"
@@ -69,5 +69,8 @@ export default {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+#audiblePic {
+  margin: 0;
 }
 </style>
