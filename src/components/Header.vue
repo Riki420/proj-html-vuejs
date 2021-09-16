@@ -32,7 +32,7 @@
       <div class="row ps-4">
         <div class="col-6">
           <h1 class="handwrite-big">Damon Vaughn</h1>
-          <p class="fs-2 text-white">
+          <p class="fs-2 text-white dm-serif">
             Best-selling author and the most influential public intellectual in
             the western world right now.
           </p>
@@ -89,8 +89,8 @@ header {
   min-height: 500px;
   .nav-link {
     &:hover {
-      border-top: 4px solid $saffron;
-      color: $saffron;
+      border-top: 4px solid $cornFlowerBlue;
+      color: $cornFlowerBlue;
     }
   }
 }

@@ -17,8 +17,8 @@
             <!--NEW AUDIBLE-->
             <div class="col-6 d-flex align-items-center">
               <div class="text-center">
-                <h4 class="text-white">New Audiobook</h4>
-                <h6 class="saffron">
+                <h4 class="text-white dm-serif">New Audiobook</h4>
+                <h6 class="$cornFlowerBlue">
                   NO TIME TO READ? NO PROBLEM. LISTEN TO IT
                 </h6>
                 <p class="text-white">

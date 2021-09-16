@@ -22,7 +22,8 @@ export default {
 @import "~bootstrap/scss/bootstrap";
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
 @import url('https://fonts.googleapis.com/css2?family=Kristi&display=swap');
-@import "assets/scss/style.scss"
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import "assets/scss/style.scss";
 
 
 </style>

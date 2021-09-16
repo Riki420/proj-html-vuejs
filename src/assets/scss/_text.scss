@@ -11,8 +11,8 @@
 .suvaGray{
     color: $suvaGray;
 }
-.saffron{
-    color: $saffron;
+.cornFlowerBlue{
+    color: $cornFlowerBlue;
 }
 .pumice{
     color: $pumice;
@@ -63,3 +63,36 @@
 .tan{
     color: $tan;
 }
+
+
+//--------------------------------------------------------------------------------------//
+//                                                                                      //
+//                                     *HANDWRITING                                     //
+//                                                                                      //
+//--------------------------------------------------------------------------------------//
+
+.handwrite-big{
+    font-family: 'Kristi', cursive;
+    font-size: 64pt;
+    color: $cornFlowerBlue;
+}
+
+.handwrite-small{
+    font-family: 'Kristi', cursive;
+    font-size: 32pt;
+    color: $cornFlowerBlue;
+}
+
+
+//--------------------------------------------------------------------------------------//
+//                                                                                      //
+//                                     *FONT FAMILY                                     //
+//                                                                                      //
+//--------------------------------------------------------------------------------------//
+
+.dm-serif{
+    font-family: 'DM Serif Display', serif;
+}
+
+
+

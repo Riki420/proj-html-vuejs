@@ -7,7 +7,7 @@
             <!--Head Section-->
             <div class="col d-flex justify-content-between align-items-center">
               <div>
-                <h1>What The Critics Say</h1>
+                <h1 class="dm-serif">What The Critics Say</h1>
                 <p class="keppel">TESTIMONIALS FROM AROUND THE WORLD</p>
               </div>
               <button type="btn" class="btn btn-anzac">Read All Testimonials</button>
