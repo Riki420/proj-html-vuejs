@@ -20,7 +20,7 @@
                 <div class="card-body">
                   <h5 class="card-title text-center">Chicago Book Signing</h5>
                   <hr />
-                  <p class="card-text text-center">
+                  <p class="card-text text-center osloGray">
                     Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
                     Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a
                     nulla.
@@ -41,7 +41,7 @@
                     Meet & Greet With Amanda
                   </h5>
                   <hr />
-                  <p class="card-text text-center">
+                  <p class="card-text text-center osloGray">
                     Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
                     Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a
                     nulla.
@@ -60,7 +60,7 @@
                 <div class="card-body">
                   <h5 class="card-title text-center">Open Book: Dialogues</h5>
                   <hr />
-                  <p class="card-text text-center">
+                  <p class="card-text text-center osloGray">
                     Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
                     Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a
                     nulla.
@@ -82,7 +82,19 @@ export default {
 </script>
 
 <style lang="scss">
+@import "../assets/scss/_vars.scss";
+
 .bgDawnPink {
   min-height: 200px;
+}
+
+.card:hover {
+  cursor: pointer;
+  p {
+    color: $scorpion;
+  }
+  img {
+    filter: sepia(0.4);
+  }
 }
 </style>

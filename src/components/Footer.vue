@@ -1,6 +1,6 @@
 <template>
   <div
-    class="container-fluid bg-foot mt-4 d-flex align-items-center align-content-center"
+    class="container-fluid bg-foot d-flex align-items-center align-content-center"
   >
     <div class="row p-4 justify-content-center flex-grow-1 align-items-center">
       <!--LOGO FOOTER-->

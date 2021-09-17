@@ -6,6 +6,7 @@
     <Testimonial />
     <Upcoming />
     <Newsletter />
+    <Articles />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import Audible from "./Audible.vue";
 import Testimonial from "./Testimonial.vue";
 import Upcoming from "./Upcoming.vue";
 import Newsletter from "./Newsletter.vue";
+import Articles from "./Articles.vue";
 export default {
   name: "Main",
   components: {
@@ -25,6 +27,7 @@ export default {
     Testimonial,
     Upcoming,
     Newsletter,
+    Articles,
   },
 };
 </script>

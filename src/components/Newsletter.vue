@@ -24,6 +24,12 @@
             <div class="col-4">
               <button type="button" class="btn btn-keppel">Subscribe</button>
             </div>
+            <div class="col">
+              <p class="osloGray">
+                Donec fringilla nunc eu turpis dignissim, at euismod sapien
+                tincidunt.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -42,6 +48,6 @@ export default {
   background-image: url("../assets/images/banner-2.jpg");
   background-position: center;
   background-size: cover;
-  min-height: 400px;
+  padding: 4em;
 }
 </style>
