@@ -9,13 +9,25 @@
               <p class="keppel pb-2">FIND OUT MORE ABOUT THE AUTHOR HIMSELF</p>
             </div>
             <div class="col-12 col-md-4 col-lg-4 mt-2">
-              <div class="box-1 round-right"></div>
+              <div class="box-1 round-right">
+                <h4 class="text-white">About Me</h4>
+                <hr class="bg-white w-25" />
+                <p class="keppel">Vestibulum ante ipsum primis</p>
+              </div>
             </div>
             <div class="col-12 col-md-4 col-lg-4 mt-2">
-              <div class="box-3 round-right"></div>
+              <div class="box-3 round-right">
+                <h4 class="text-white">About Me</h4>
+                <hr class="bg-white w-25" />
+                <p class="keppel">Vestibulum ante ipsum primis</p>
+              </div>
             </div>
             <div class="col-12 col-md-4 col-lg-4 mt-2">
-              <div class="box-4 round-right"></div>
+              <div class="box-4 round-right">
+                <h4 class="text-white">About Me</h4>
+                <hr class="bg-white w-25" />
+                <p class="keppel">Vestibulum ante ipsum primis</p>
+              </div>
             </div>
           </div>
         </div>
@@ -37,6 +49,12 @@ export default {
   background-position: left;
   background-size: cover;
   min-height: 360px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: center;
   &:hover {
     box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
     cursor: pointer;
@@ -48,6 +66,12 @@ export default {
   background-position: left;
   background-size: cover;
   min-height: 360px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: center;
   &:hover {
     box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
     cursor: pointer;
@@ -59,6 +83,12 @@ export default {
   background-position: left;
   background-size: cover;
   min-height: 360px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: center;
   &:hover {
     box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
     cursor: pointer;
