@@ -1,6 +1,7 @@
 <template>
-  <div class="container-fluid bg-foot mt-4">
-    <div class="row p-4 justify-content-center align-items-center">
+  <div class="container-fluid bg-foot mt-4 d-flex align-items-center">
+    <div class="row p-4 justify-content-center flex-grow-1 align-items-center">
+      <!--LOGO FOOTER-->
       <div class="col">
         <figure>
           <img
@@ -10,6 +11,7 @@
           />
         </figure>
       </div>
+      <!--FIRST UL-->
       <div class="col">
         <ul class="text-white">
           <li><h4>TITOLO</h4></li>
@@ -19,6 +21,7 @@
           <li>TESTO</li>
         </ul>
       </div>
+      <!--SECOND UL-->
       <div class="col">
         <ul class="text-white">
           <li><h4>TITOLO</h4></li>
@@ -28,6 +31,7 @@
           <li>TESTO</li>
         </ul>
       </div>
+      <!--THIRD UL-->
       <div class="col">
         <ul class="text-white">
           <li><h4>TITOLO</h4></li>
@@ -36,6 +40,10 @@
           <li>TESTO</li>
           <li>TESTO</li>
         </ul>
+      </div>
+      <div class="col-12 text-center text-white">
+        &copy; Copyright 2012 - 2020 | Avada Theme by ThemeFusion | All Rights
+        Reserved | Powered by WordPress
       </div>
     </div>
   </div>
