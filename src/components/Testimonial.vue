@@ -23,8 +23,8 @@
                 <div class="row">
                   <!--TESTIMONIAL IMG-->
                   <div class="col-6">
-                    <div class="bg-testimonial round-right filter-bright">
-                      <div class="text-white">
+                    <div class="bg-testimonial round-right">
+                      <div class="text-white" id="testimonialText">
                         <h1 class="dm-serif">Best Author Of His Generation</h1>
                         <hr />
                         <h5>This book will change your perspective on life</h5>
@@ -144,9 +144,11 @@ export default {
   background-image: url("../assets/images/testimonial2-2x.jpg");
   background-position: center;
   background-size: cover;
-  background-image: linear-gradient(0, 0, 0, 0.5);
+  filter: brightness(0.5);
   padding: 4em;
 }
+
+//TESTIMONIALS BOX
 .testimonials-box {
   min-height: 200px;
   background-color: $dawnPink;
