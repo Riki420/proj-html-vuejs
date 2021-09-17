@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid">
+  <div class="container-fluid d-none d-md-inline">
     <div class="row">
       <div class="col">
         <div class="container w-75 mt-4">
@@ -22,7 +22,7 @@
                 </div>
                 <div class="row">
                   <!--TESTIMONIAL IMG-->
-                  <div class="col-6">
+                  <div class="d-none d-md-inline col-lg-6">
                     <div class="bg-testimonial round-right">
                       <div class="text-white" id="testimonialText">
                         <h1 class="dm-serif">Best Author Of His Generation</h1>
@@ -55,7 +55,7 @@
                     </div>
                   </div>
                   <!--TESTIMONIALS TEXT-->
-                  <div class="col-6">
+                  <div class="d-none d-md-inline col-lg-6 mt-md-2">
                     <div class="container-fluid">
                       <div class="row flex-column">
                         <!--FIRST TESTIMONIAL BOX-->
@@ -141,10 +141,10 @@ export default {
 
 //Testimonials class
 .bg-testimonial {
-  background-image: url("../assets/images/testimonial2-2x.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../assets/images/testimonial2-2x.jpg");
   background-position: center;
   background-size: cover;
-  filter: brightness(0.5);
   padding: 4em;
 }
 

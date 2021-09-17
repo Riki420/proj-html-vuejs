@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid" id="newsletter">
+  <div class="container-fluid d-none d-md-block" id="newsletter">
     <div class="row">
       <div class="col">
         <div class="container w-25">

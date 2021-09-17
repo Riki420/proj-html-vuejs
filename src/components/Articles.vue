@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid bgDawnPink pb-4">
+  <div class="container-fluid d-none d-md-block bgDawnPink pb-4">
     <div class="row">
       <div class="col">
         <div class="container w-75 mt-4">

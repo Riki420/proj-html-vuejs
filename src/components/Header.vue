@@ -151,7 +151,8 @@ export default {
 @import "../assets/scss/_vars.scss";
 @import "../assets/scss/_text.scss";
 header {
-  background-image: url("../assets/images/hero-07-2x.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../assets/images/hero-07-2x.jpg");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;

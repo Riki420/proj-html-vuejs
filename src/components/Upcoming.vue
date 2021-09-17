@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid bgDawnPink mt-4">
+  <div class="container-fluid bgDawnPink pt-4">
     <div class="row p-4">
       <div class="col">
         <div class="container w-75">
@@ -10,7 +10,7 @@
               <h4 class="cornFlowerBlue pb-4">Meet the Author</h4>
             </div>
             <!--FIRST EVENT CARD-->
-            <div class="col-4 pb-55">
+            <div class="col col-md-4 col-lg-4 pb-55">
               <div class="card h-100" style="width: 18rem;">
                 <img
                   src="../assets/images/event-05.jpg"
@@ -29,7 +29,7 @@
               </div>
             </div>
             <!--SECOND EVENT CARD-->
-            <div class="col-4 pb-55">
+            <div class="col col-md-4 col-lg-4 pb-55">
               <div class="card h-100" style="width: 18rem;">
                 <img
                   src="../assets/images/event-04.jpg"
@@ -50,7 +50,7 @@
               </div>
             </div>
             <!--THIRD EVENT CARD-->
-            <div class="col-4 pb-55">
+            <div class="col col-md-4 col-lg-4 pb-55">
               <div class="card h-100" style="width: 18rem;">
                 <img
                   src="../assets/images/event-07.jpg"
