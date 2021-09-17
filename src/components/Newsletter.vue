@@ -7,7 +7,7 @@
             <!--SUBSCRIBE TEXT-->
             <div class="col-12">
               <div class="text-center text-white">
-                <h2 class="dm-serif">Subscribe To Newsletter</h2>
+                <h2 class="dm-serif">Subscribe To My Newsletter</h2>
                 <p class="cornFlowerBlue txt-small">
                   BE NOTIFIED ABOUT BOOK SIGNING TOUR DATES
                 </p>
