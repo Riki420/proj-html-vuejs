@@ -11,7 +11,7 @@
             </div>
             <!--FIRST EVENT CARD-->
             <div class="col-4 pb-55">
-              <div class="card" style="width: 18rem;">
+              <div class="card h-100" style="width: 18rem;">
                 <img
                   src="../assets/images/event-05.jpg"
                   class="card-img-top"
@@ -30,7 +30,7 @@
             </div>
             <!--SECOND EVENT CARD-->
             <div class="col-4 pb-55">
-              <div class="card" style="width: 18rem;">
+              <div class="card h-100" style="width: 18rem;">
                 <img
                   src="../assets/images/event-04.jpg"
                   class="card-img-top"
@@ -51,7 +51,7 @@
             </div>
             <!--THIRD EVENT CARD-->
             <div class="col-4 pb-55">
-              <div class="card" style="width: 18rem;">
+              <div class="card h-100" style="width: 18rem;">
                 <img
                   src="../assets/images/event-07.jpg"
                   class="card-img-top"
@@ -83,10 +83,6 @@ export default {
 
 <style lang="scss">
 .bgDawnPink {
-  min-height: 200px;
-}
-
-.my-card {
   min-height: 200px;
 }
 </style>
