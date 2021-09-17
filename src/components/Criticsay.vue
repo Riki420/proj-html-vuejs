@@ -22,14 +22,24 @@
                 </div>
                 <div class="row">
                   <div class="col-6">
-                    <div>
-                      <figure>
-                        <img
-                          src="../assets/images/testimonial2-2x.jpg"
-                          alt="testimonial-img"
-                          class="img-fluid round-right filter-bright"
-                        />
-                      </figure>
+                    <div class="bg-testimonial round-right filter-bright">
+                      <div class="text-white">
+                        <h1 class="dm-serif">Best Author Of His Generation</h1>
+                        <hr />
+                        <h5>This book will change your perspective on life</h5>
+                        <p>
+                          Donec fringilla nunc eu turpis dignissim, at euismod
+                          sapien tincidunt. Maecenas eleifend congue cursus. In
+                          vitae enim quis sem pharetra. Curabitur arcu erat,
+                          accumsan id imperdiet et, porttitor at sem.
+                        </p>
+                        <p>
+                          Donec fringilla nunc eu turpis dignissim, at euismod
+                          sapien tincidunt. Maecenas eleifend congue cursus. In
+                          vitae enim quis sem pharetra. Curabitur arcu erat,
+                          accumsan id imperdiet et, porttitor at sem.
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -54,5 +64,14 @@ export default {
 }
 .filter-bright {
   filter: brightness(0.5);
+  p {
+    filter: brightness(1);
+  }
+}
+.bg-testimonial {
+  background-image: url("../assets/images/testimonial2-2x.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 2em;
 }
 </style>
