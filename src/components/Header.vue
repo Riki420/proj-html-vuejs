@@ -18,7 +18,12 @@
         <div class="col-7">
           <ul class="nav">
             <li class="nav-item" v-for="(link, index) in linksNav" :key="index">
-              <a href="#" class="nav-link py-4 text-white">{{ link.text }}</a>
+              <a
+                href="link.url"
+                class="nav-link py-4 text-white"
+                :class="{ selected: link.current }"
+                >{{ link.text }}</a
+              >
             </li>
             <li class="nav-item">
               <a href="#" class="nav-link text-white py-4"
@@ -46,6 +51,7 @@
         </div>
       </div>
     </div>
+    <!--BUY ON-->
     <div class="container-fluid d-none d-sm-none d-md-inline d-lg-inline">
       <div class="row">
         <div class="col">
@@ -102,24 +108,38 @@ export default {
       linksNav: [
         {
           text: "Home",
+          current: true,
+          url: "#",
         },
         {
           text: "About Me",
+          current: false,
+          url: "#",
         },
         {
           text: "Testimonials",
+          current: false,
+          url: "#",
         },
         {
           text: "My Blog",
+          current: false,
+          url: "#",
         },
         {
           text: "Meetups",
+          current: false,
+          url: "#",
         },
         {
           text: "Shop",
+          current: false,
+          url: "#",
         },
         {
           text: "Contact Me",
+          current: false,
+          url: "#",
         },
       ],
     };
@@ -142,6 +162,10 @@ header {
       border-top: 4px solid $cornFlowerBlue;
       color: $cornFlowerBlue;
     }
+  }
+  .selected {
+    border-top: 4px solid $cornFlowerBlue;
+    color: $cornFlowerBlue;
   }
   #buyOnBox {
     background-color: #fff;
