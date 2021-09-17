@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid d-none d-md-block" id="newsletter">
+  <div class="container-fluid d-none d-md-block pb-55 pt-55" id="newsletter">
     <div class="row">
       <div class="col">
         <div class="container w-25">
@@ -8,7 +8,7 @@
             <div class="col-12">
               <div class="text-center text-white">
                 <h2 class="dm-serif">Subscribe To Newsletter</h2>
-                <p class="cornFlowerBlue">
+                <p class="cornFlowerBlue txt-small">
                   BE NOTIFIED ABOUT BOOK SIGNING TOUR DATES
                 </p>
               </div>

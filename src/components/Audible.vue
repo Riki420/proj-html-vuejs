@@ -1,5 +1,5 @@
 <template>
-  <div id="audible" class="container-fluid pt-4 position-relative">
+  <div id="audible" class="container-fluid pt-55 position-relative">
     <div class="row">
       <div class="col">
         <div class="container w-75">

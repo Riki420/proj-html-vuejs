@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid d-none d-md-block bgDawnPink pb-4">
+  <div class="container-fluid d-none d-md-block bgDawnPink pb-55 pt-55">
     <div class="row">
       <div class="col">
         <div class="container w-75 mt-4">
@@ -12,7 +12,7 @@
                     class="col-12 d-flex justify-content-between align-items-center"
                   >
                     <div>
-                      <h1 class="dm-serif">Recent Articles</h1>
+                      <h3 class="dm-serif">Recent Articles</h3>
                       <p class="keppel">READ THE LATEST ENTRIES</p>
                     </div>
                     <button type="btn" class="btn btn-anzac">
@@ -31,7 +31,7 @@
                           />
                         </figure>
                         <h4>20 Creativity Tips</h4>
-                        <address>
+                        <address class="txt-small">
                           By admin | October 24th, 2019 | Categories: Event,
                           Tips & Tricks
                         </address>
@@ -57,7 +57,9 @@
                             />
                           </figure>
                           <h5>What's On Your Booklist</h5>
-                          <address>October 24th, 2019 | 0 Comments</address>
+                          <address class="txt-small">
+                            October 24th, 2019 | 0 Comments
+                          </address>
                         </div>
                       </div>
                     </div>
@@ -73,7 +75,9 @@
                             />
                           </figure>
                           <h5>Instanbul Travel Guide</h5>
-                          <address>October 24th, 2019 | 0 Comments</address>
+                          <address class="txt-small">
+                            October 24th, 2019 | 0 Comments
+                          </address>
                         </div>
                       </div>
                     </div>

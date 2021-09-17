@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col align-items-center">
         <div class="container w-75">
-          <div class="row justify-content-center align-items-center">
+          <div class="row justify-content-center align-items-center p-4">
             <div class="col-6 col-md">
               <figure>
                 <img

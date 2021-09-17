@@ -14,7 +14,7 @@
         </figure>
       </div>
       <!--ABOUT ME-->
-      <div class="col d-none d-md-block d-flex flex-column">
+      <div class="col d-none d-md-block d-flex flex-column h-200">
         <div>
           <h4 class="dm-serif text-white pb-2">ABOUT ME</h4>
         </div>
@@ -27,7 +27,7 @@
         </div>
       </div>
       <!--USEFUL LINKS-->
-      <div class="col d-none d-md-block d-flex flex-column">
+      <div class="col d-none d-md-block d-flex flex-column h-200">
         <div>
           <h4 class="dm-serif text-white pb-2 indent-2">USEFUL LINKS</h4>
         </div>
@@ -60,7 +60,7 @@
         </div>
       </div>
       <!--CONTACT INFO-->
-      <div class="col d-flex flex-column">
+      <div class="col d-flex flex-column h-200">
         <div>
           <h4 class="dm-serif text-white pb-2 indent-2">CONTACT INFO</h4>
         </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid d-none d-md-inline">
+  <div class="container-fluid d-none d-md-inline pt-55 pb-55">
     <div class="row">
       <div class="col">
         <div class="container w-75 mt-4">
@@ -12,7 +12,7 @@
                     class="col d-flex justify-content-between align-items-center"
                   >
                     <div>
-                      <h1 class="dm-serif">What The Critics Say</h1>
+                      <h3 class="dm-serif">What The Critics Say</h3>
                       <p class="keppel">TESTIMONIALS FROM AROUND THE WORLD</p>
                     </div>
                     <button type="btn" class="btn btn-anzac">
@@ -25,7 +25,7 @@
                   <div class="d-none d-md-inline col-lg-6">
                     <div class="bg-testimonial round-right">
                       <div class="text-white" id="testimonialText">
-                        <h1 class="dm-serif">Best Author Of His Generation</h1>
+                        <h4 class="dm-serif">Best Author Of His Generation</h4>
                         <hr />
                         <h5>This book will change your perspective on life</h5>
                         <p>
@@ -145,7 +145,7 @@ export default {
     url("../assets/images/testimonial2-2x.jpg");
   background-position: center;
   background-size: cover;
-  padding: 4em;
+  padding: 4.9em;
 }
 
 //TESTIMONIALS BOX

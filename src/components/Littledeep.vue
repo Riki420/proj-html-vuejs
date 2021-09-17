@@ -1,13 +1,15 @@
 <template>
-  <div class="container py-4">
+  <div class="container pb-55 pt-55">
     <div class="row">
       <div class="col">
         <div class="container w-75">
           <div class="row pb-4">
+            <!--LITTLE DEEP HEAD-->
             <div class="col-12 text-center pb-4">
               <h2 class="dm-serif">Dig A Little Deeper Into Damon Vaughn</h2>
               <p class="keppel pb-2">FIND OUT MORE ABOUT THE AUTHOR HIMSELF</p>
             </div>
+            <!--FIRST BOX-->
             <div class="col-12 col-md-4 col-lg-4 mt-2">
               <div class="box-1 round-right">
                 <h4 class="text-white">About Me</h4>
@@ -15,16 +17,18 @@
                 <p class="keppel">Vestibulum ante ipsum primis</p>
               </div>
             </div>
+            <!--SECOND BOX-->
             <div class="col-12 col-md-4 col-lg-4 mt-2">
               <div class="box-3 round-right">
-                <h4 class="text-white">About Me</h4>
+                <h4 class="text-white">My Latest Book</h4>
                 <hr class="bg-white w-25" />
                 <p class="keppel">Vestibulum ante ipsum primis</p>
               </div>
             </div>
+            <!--THIRD BOX-->
             <div class="col-12 col-md-4 col-lg-4 mt-2">
               <div class="box-4 round-right">
-                <h4 class="text-white">About Me</h4>
+                <h4 class="text-white">Book Signing</h4>
                 <hr class="bg-white w-25" />
                 <p class="keppel">Vestibulum ante ipsum primis</p>
               </div>

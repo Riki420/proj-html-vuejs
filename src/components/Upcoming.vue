@@ -1,13 +1,13 @@
 <template>
-  <div class="container-fluid bgDawnPink pt-4">
+  <div class="container-fluid bgDawnPink pt-55 pb-55">
     <div class="row p-4">
       <div class="col">
         <div class="container w-75">
           <div class="row">
             <!--EVENT HEAD-->
             <div class="col-12 text-center">
-              <h1 class="dm-serif">Upcoming Events</h1>
-              <h4 class="cornFlowerBlue pb-4">Meet the Author</h4>
+              <h3 class="dm-serif">Upcoming Events</h3>
+              <p class="cornFlowerBlue pb-4">Meet the Author</p>
             </div>
             <!--FIRST EVENT CARD-->
             <div class="col col-md-4 col-lg-4 pb-55">
