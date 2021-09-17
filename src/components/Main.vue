@@ -4,6 +4,7 @@
     <Logotan />
     <Audible />
     <Testimonial />
+    <Upcoming />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import Moreabout from "./Moreabout.vue";
 import Logotan from "./Logotan.vue";
 import Audible from "./Audible.vue";
 import Testimonial from "./Testimonial.vue";
+import Upcoming from "./Upcoming.vue";
 export default {
   name: "Main",
   components: {
@@ -19,6 +21,7 @@ export default {
     Logotan,
     Audible,
     Testimonial,
+    Upcoming,
   },
 };
 </script>
