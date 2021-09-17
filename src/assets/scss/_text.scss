@@ -5,65 +5,64 @@
 //--------------------------------------------------------------------------------------//
 
 //COLOR CUBE
-.tundora{
-    color: $tundora;
+.tundora {
+  color: $tundora;
 }
-.suvaGray{
-    color: $suvaGray;
+.suvaGray {
+  color: $suvaGray;
 }
-.cornFlowerBlue{
-    color: $cornFlowerBlue;
+.cornFlowerBlue {
+  color: $cornFlowerBlue;
 }
-.pumice{
-    color: $pumice;
+.pumice {
+  color: $pumice;
 }
-.blueLagoon{
-    color: $blueLagoon;
+.blueLagoon {
+  color: $blueLagoon;
 }
-.cornHarvest{
-    color: $cornHarvest;
+.cornHarvest {
+  color: $cornHarvest;
 }
-.fountainBlue{
-    color: $fountainBlue;
+.fountainBlue {
+  color: $fountainBlue;
 }
-.alizarinCrimson{
-    color: $alizarinCrimson
+.alizarinCrimson {
+  color: $alizarinCrimson;
 }
 
 //MEDIAN CUT
-.dawnPink{
-    color: $dawnPink;
+.dawnPink {
+  color: $dawnPink;
 }
-.codGray{
-    color: $codGray;
+.codGray {
+  color: $codGray;
 }
-.pewter{
-    color: $pewter;
+.pewter {
+  color: $pewter;
 }
-.sandDune{
-    color: $sandDune;
+.sandDune {
+  color: $sandDune;
 }
-.osloGray{
-    color: $osloGray;
+.osloGray {
+  color: $osloGray;
 }
 
 //MATERIAL DESIGN
-.anzac{
-    color: $anzac;
+.anzac {
+  color: $anzac;
 }
-.scorpion{
-    color: $scorpion;
+.scorpion {
+  color: $scorpion;
 }
-.keppel{
-    color: $keppel;
+.keppel {
+  color: $keppel;
 }
-.merlin{
-    color: $merlin;
+.merlin {
+  color: $merlin;
 }
-.tan{
-    color: $tan;
+.tan {
+  color: $tan;
 }
-
 
 //--------------------------------------------------------------------------------------//
 //                                                                                      //
@@ -71,18 +70,17 @@
 //                                                                                      //
 //--------------------------------------------------------------------------------------//
 
-.handwrite-big{
-    font-family: 'Kristi', cursive;
-    font-size: 64pt;
-    color: $cornFlowerBlue;
+.handwrite-big {
+  font-family: "Kristi", cursive;
+  font-size: 64pt;
+  color: $cornFlowerBlue;
 }
 
-.handwrite-small{
-    font-family: 'Kristi', cursive;
-    font-size: 32pt;
-    color: $cornFlowerBlue;
+.handwrite-small {
+  font-family: "Kristi", cursive;
+  font-size: 32pt;
+  color: $cornFlowerBlue;
 }
-
 
 //--------------------------------------------------------------------------------------//
 //                                                                                      //
@@ -90,9 +88,12 @@
 //                                                                                      //
 //--------------------------------------------------------------------------------------//
 
-.dm-serif{
-    font-family: 'DM Serif Display', serif;
+.dm-serif {
+  font-family: "DM Serif Display", serif;
 }
 
+/**INDENT**/
 
-
+.indent-2 {
+  text-indent: 1.2em;
+}
