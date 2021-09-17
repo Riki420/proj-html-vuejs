@@ -7,7 +7,7 @@
             <div class="col">
               <div class="container">
                 <div class="row">
-                  <!--Head Section-->
+                  <!--TESTIMONIAL HEAD-->
                   <div
                     class="col d-flex justify-content-between align-items-center"
                   >
@@ -58,8 +58,8 @@
                   <div class="col-6">
                     <div class="container-fluid">
                       <div class="row flex-column">
+                        <!--FIRST TESTIMONIAL BOX-->
                         <div class="col">
-                          <!--FIRST TESTIMONIAL BOX-->
                           <div class="testimonials-box text-center">
                             <h4 class="dm-serif">A True Masterpiece, Bravo!</h4>
                             <p>
@@ -84,7 +84,31 @@
                           </address>
                         </div>
                         <!--SECOND TESTIMONIAL BOX-->
-                        <div class="col"></div>
+                        <div class="col">
+                          <div class="testimonials-box text-center">
+                            <h4 class="dm-serif">A Unique View On The World</h4>
+                            <p>
+                              Donec solicitudin molestie malesuada. Curabitur
+                              arcu erat, accumsan id imperdiet et, porttitor at
+                              sem, Vestibulum ac diam sit amet quam vehicula
+                              elementum sed sit amet dui. Nulla quis lorem ut
+                              libero malesuada feugiat vestibulum ac diam sit
+                              amet.
+                            </p>
+                          </div>
+                          <div class="box-pointer"></div>
+                          <address>
+                            <figure class="d-inline me-2">
+                              <img
+                                src="../assets/images/globe-xsmall.png"
+                                alt="guardian-logo"
+                                class="img-fluid"
+                              />
+                            </figure>
+                            <span class="osloGray">Mary Maxey</span>, The Globe
+                            And Mail
+                          </address>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -100,7 +124,7 @@
 
 <script>
 export default {
-  name: "Criticsay",
+  name: "Testimonial",
 };
 </script>
 
@@ -121,7 +145,7 @@ export default {
   background-position: center;
   background-size: cover;
   background-image: linear-gradient(0, 0, 0, 0.5);
-  padding: 2em;
+  padding: 4em;
 }
 .testimonials-box {
   min-height: 200px;
