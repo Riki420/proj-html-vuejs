@@ -4,7 +4,7 @@
     <Logotan />
     <Audible />
     <Testimonial />
-    <Upcoming />
+    <Events />
     <Newsletter />
     <Littledeep />
     <Articles />
@@ -16,7 +16,7 @@ import Moreabout from "./Moreabout.vue";
 import Logotan from "./Logotan.vue";
 import Audible from "./Audible.vue";
 import Testimonial from "./Testimonial.vue";
-import Upcoming from "./Upcoming.vue";
+import Events from "./Events.vue";
 import Newsletter from "./Newsletter.vue";
 import Littledeep from "./Littledeep.vue";
 import Articles from "./Articles.vue";
@@ -28,7 +28,7 @@ export default {
     Logotan,
     Audible,
     Testimonial,
-    Upcoming,
+    Events,
     Newsletter,
     Littledeep,
     Articles,
