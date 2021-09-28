@@ -2,7 +2,7 @@
   <div
     class="container-fluid bg-foot d-flex align-items-center align-content-center"
   >
-    <div class="row p-4 justify-content-center flex-grow-1 align-items-center">
+    <div class="row justify-content-center flex-grow-1 align-items-center">
       <!--LOGO FOOTER-->
       <div class="col">
         <figure>

@@ -34,7 +34,7 @@
         </div>
       </div>
       <!--AUTHOR & CIT-->
-      <div class="row ps-4">
+      <div class="row">
         <div class="col col-md-6 col-lg-6">
           <h1 class="handwrite-big">Damon Vaughn</h1>
           <p class="fs-2 text-white dm-serif">
@@ -51,7 +51,7 @@
         </div>
       </div>
     </div>
-    <!--BUY ON-->
+    <!--BUY ON BOX-->
     <div class="container-fluid d-none d-sm-none d-md-inline d-lg-inline">
       <div class="row">
         <div class="col">

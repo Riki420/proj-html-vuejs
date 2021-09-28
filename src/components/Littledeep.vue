@@ -2,8 +2,8 @@
   <div class="container pb-55 pt-55">
     <div class="row">
       <div class="col">
-        <div class="container w-75">
-          <div class="row pb-4">
+        <div class="container w-75 pb-4">
+          <div class="row">
             <!--LITTLE DEEP HEAD-->
             <div class="col-12 text-center pb-4">
               <h2 class="dm-serif">Dig A Little Deeper Into Damon Vaughn</h2>
